@@ -22,7 +22,7 @@ Além do código desenvolvido em Python, o projeto possui um arquivo **Shell Scr
 A calculadora permite:
 
 * Informar o valor pago pela peça;
-* Considerar custos fixos relacionados à embalagem, adesivo e fita;
+* Considerar custos relacionados à embalagem, adesivo e fita;
 * Calcular os custos envolvidos na venda;
 * Considerar a **taxa de 40% cobrada pelo aplicativo sobre o valor de cada peça vendida**;
 * Informar a **porcentagem de lucro desejada**;
@@ -59,7 +59,7 @@ Após a execução, o programa solicitará as informações necessárias para re
 ## Estrutura do projeto
 
 ```text
-teste2/
+calculadora/
 ├── Calculadora.ipynb
 ├── calculadora.sh
 ├── README.md
@@ -82,9 +82,9 @@ Documentação do projeto, contendo informações sobre seu funcionamento, tecno
 
 O código foi desenvolvido utilizando conceitos básicos de programação em Python.
 
-Primeiramente, são definidos os custos fixos relacionados à venda do produto, como embalagem, adesivo e fita. Esses valores são utilizados para calcular o custo adicional envolvido na venda.
+Primeiramente, são definidos os custos relacionados à venda do produto, como embalagem, adesivo e fita. Esses valores são utilizados para calcular os custos adicionais envolvidos na venda.
 
-Em seguida, o programa recebe o valor pago pela peça e realiza os cálculos necessários para determinar o custo total.
+Em seguida, o programa recebe o valor pago pela peça e realiza os cálculos necessários para determinar o custo total da operação.
 
 A calculadora também considera a **taxa de 40% cobrada pelo aplicativo de vendas sobre o valor da peça**. Essa taxa é considerada como um dos custos da operação.
 
@@ -108,7 +108,7 @@ Um exemplo de utilização da calculadora consiste em informar:
 
 * Valor pago pela peça;
 * Custos relacionados à embalagem;
-* Outros custos fixos;
+* Outros custos envolvidos na venda;
 * Margem de lucro desejada.
 
 Com essas informações, o programa realiza os cálculos e apresenta o **preço de venda** e o **lucro obtido**.
@@ -134,6 +134,7 @@ Com o desenvolvimento deste projeto, foram praticados:
 * Git;
 * GitHub;
 * Documentação de projetos.
+
 
 
 
