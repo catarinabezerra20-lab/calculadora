@@ -135,7 +135,4 @@ Com o desenvolvimento deste projeto, foram praticados:
 * GitHub;
 * Documentação de projetos.
 
-
-
-
 Projeto desenvolvido como parte dos estudos de programação e análise de dados.
